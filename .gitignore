@@ -1,0 +1,14 @@
+# Local configuration and secrets - templates are committed, real values are not
+.env
+config.yaml
+!config.example.yaml
+!.env.example
+
+# Worktrees
+.claude/worktrees/
+.worktrees/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
